@@ -153,3 +153,8 @@ log.txt
 *.manifest
 *.lastbuildstate
 *.idb
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+ipch/

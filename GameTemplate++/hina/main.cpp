@@ -2,16 +2,10 @@
 #include "main.h"
 #include "Keyboard.h"
 
-//================================
-//|                              |
-//| 釧路高専プログラミング同好会 |
-//|                              |
-//================================
-
 //********************************************************
 //* 使用 : DXライブラリ.net                              *
 //* http://homepage2.nifty.com/natupaji/DxLib/index.html *
-//* DX Library Copyright (C) 2001-2015 Takumi Yamada.    *
+//* DX Library Copyright (C) 2001-2016 Takumi Yamada.    *
 //********************************************************
 
 
@@ -22,6 +16,7 @@
 
 //メイン関数
 int WINAPI WinMain(HINSTANCE,HINSTANCE,LPSTR,int){
+	SetMainWindowText("Sample Game");
 	SetGraphMode(WINDOW_WIDTH, WINDOW_HEIGHT, 32);
 #ifdef FULL_SCREEN
 	ChangeWindowMode(FALSE);	//フルスクリーンモードに
